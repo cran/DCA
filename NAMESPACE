@@ -1,0 +1,11 @@
+export(dca)
+export(find.xy)
+export(plot_la)
+export(la.simu.gen)
+
+import(locfdr, GPArotation, coin, PMA, elasticnet, modeest, mvtnorm)
+  importFrom("grDevices", "col2rgb")
+  importFrom("graphics", "plot", "points")
+  importFrom("methods", "new")
+  importFrom("stats", "approx", "cor", "kmeans", "median", "qnorm",
+             "quantile", "rnorm", "runif", "sd", "varimax")
