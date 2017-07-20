@@ -15,6 +15,8 @@ The subroutine dca() computes dynamic correlation signals from the data matrix. 
 Tianwei Yu <tianwei.yu@emory.edu>
 }
 \references{
+https://ru.arxiv.org/pdf/1705.02479
+
 Li, K.C. (2002) Genome-wide coexpression dynamics: theory and application, Proceedings of the National Academy of Sciences of the United States of America, 99, 16875-16880.
 }
 \keyword{ package }

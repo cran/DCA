@@ -7,8 +7,8 @@ Find variable pairs for a given set of LA scouting vectors.
 After finding the latent vectors, this function can be used to find the pairs of variables (rows of the original data matrix) that are associated with each latent vector in terms of dynamic correlation. 
 }
 \usage{
-find.xy(array, z, fdr.cut = 0.05, normalization = "standardize", 
-center.z = FALSE, low.cor.percentile = c(0.2, 0.8))
+find.xy(array, z, fdr.cut=0.05, normalization="standardize",
+ center.z=FALSE, lac.percentile=0.8)
 }
 \arguments{
   \item{array}{
@@ -26,8 +26,8 @@ The way the data matrix is to be row-normalized. The method requires each row to
   \item{center.z}{
 Whether to remove mean from each z vector.
 }
-  \item{low.cor.percentile}{
-The variable pairs that are considered low correlation will enter the computation. This is determined by the percentile of the correlation among all variable pairs. If the percentile is within the provided range, then they are considered lowly correlated. 
+  \item{lac.percentile}{
+The variable pairs that are considered potentially dymanically correlated will enter the computation. This is determined by the percentile of the LAC score among all variable pairs. If the percentile is higher than the provided threshold, then they are considered. 
 }
 }
 

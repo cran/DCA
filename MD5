@@ -1,7 +1,7 @@
-caa652a3ddf45a4bd1d7ad9d57a87fcf *DESCRIPTION
-e50ff7ff83c0ca774116810868df5109 *NAMESPACE
+3d34e9a8602b259ab190db5ee5cff207 *DESCRIPTION
+9a1a198fd3bc0ed32c4912d2cac76387 *NAMESPACE
 9be4cc94216e57f3cedcedf06a638203 *R/dca.R
-ca9a5eb4c0031fae3c5ed6d619918bfb *R/find.xy.R
+8091492c7c4139901c8258f94f7b25c9 *R/find.xy.R
 ff133737ad1bb4b9004e910577806ded *R/la.simu.gen.R
 acf92a352ea6a4e9775c1c4134194697 *R/normrow.R
 1c8808faef0fd758cb510d4a54df2244 *R/normscore.row.R
@@ -9,8 +9,8 @@ acf92a352ea6a4e9775c1c4134194697 *R/normrow.R
 68bfdf719a948756596a4709aa713df7 *R/one.gene.LA.R
 c3c75fa6364e46acd50ffc809c61c8dd *R/plot_la.R
 7954d18db815459ae45fe46f63409ae5 *R/rot.fac.R
-8095dbeba3f6cf8472629376033f63fd *man/DCA-package.Rd
+db0cf374a115dcaebb4b9fab85a21e57 *man/DCA-package.Rd
 77c90d7f55d38eb55fb0e930531402eb *man/dca.Rd
-5d7a53a930ebe9a3c76a3542d86d95a1 *man/find.xy.Rd
+9b8a5b879aab803b462ee2418e2ea992 *man/find.xy.Rd
 7e0039fdcb8cea29c32080d6e6c6cee9 *man/la.simu.gen.Rd
 f98c3d8595156242bc94a6418efec858 *man/plot.la.Rd
